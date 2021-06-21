@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Animation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section class="scene">
+    <div class="sun"> </div>
+    <div class="bg">
+      <img src="Car Images/Car.png" alt="" class="car1">
+      <img src="Car Images/CarO.png" alt="" class="car2">
+      <img src="Car Images/CarY.png" alt="" class="car3">
+    </div>
+
+  </section>
+  <script>
+    const sun = document.querySelector('.sun');
+    const body = document.querySelector('body');
+    sun.onclick = function() {
+      body.classList.toggle('dark');
+    }
+  </script>
+</body>
+
+</html>
